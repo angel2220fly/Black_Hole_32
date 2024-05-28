@@ -509,9 +509,9 @@ class compression:
                                         #print(longl)
                                     INFO=INFO[13:]                                
                                     
-                                    En2=int(INFO[:3],2)
+                                    En2=int(INFO[:13],2)
                                         #print(longl)
-                                    INFO=INFO[3:]
+                                    INFO=INFO[13:]
                                         
                                     En=int(INFO[:13],2)
                                         #print(longl)
