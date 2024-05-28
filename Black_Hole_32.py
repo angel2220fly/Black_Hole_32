@@ -367,12 +367,12 @@ class compression:
                                                                         
                                                                
 
-                                                                    if  Find==2 or En4==15:
+                                                                    if  Find==2 or En4==8190:
                                                                                 Find=1
                                                                                 Extract1=1                                                             
                                                                                                
                                                                     
-                                                                    elif En4==14 and Find==3:
+                                                                    elif En4==8189 and Find==3:
                                                                         smallest_longl_F_values = find_smallest_longl_F_values(input_string)
                                                                         if smallest_longl_F_values:
                                                                             en, en2, en3, en4, longl_F = smallest_longl_F_values
